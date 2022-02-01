@@ -229,13 +229,16 @@ int main()
         cout << hex << (int)decryptedMessage[i];
         cout << " ";
     }
-    cout << endl;
+    cout << endl
+         << endl;
+
     cout << "Decrypted message: ";
     for (int i = 0; i < messageLen; i++)
     {
         cout << decryptedMessage[i];
     }
-    cout << endl;
+    cout << endl
+         << endl;
 
     return 0;
 }

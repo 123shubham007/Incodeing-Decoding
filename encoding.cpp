@@ -155,8 +155,9 @@ int main(int argc, char *argv[])
     Huffman_codemap.resize(Char_size);
     long long int Count[Char_size] = {0}; //Declare and initialize character count array
     string filename;                      //Set filename
-    cout << "Enter Filename:\t";
-    cin >> filename;
+    filename = "message.aes";
+    // cout << "Enter Filename:\t";
+    // cin >> filename;
     ifstream input_file(filename.c_str(), ios::binary); //set input stream
     if (!input_file.good())                             //Check if input file exists
     {

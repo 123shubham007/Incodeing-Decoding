@@ -79,8 +79,9 @@ void decode(ifstream &input, string filename, Node *Root, long long int Total_Fr
 int main()
 {
     string filename;
-    cout << "Enter the Filename:\t";
-    cin >> filename;
+    filename = "message.aes.huf";
+    // cout << "Enter the Filename:\t";
+    // cin >> filename;
     ifstream input_file(filename.c_str(), ios::binary); //Open File
     if (!input_file.good())                             //Check if stream is open
     {
