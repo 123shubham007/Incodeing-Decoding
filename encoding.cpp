@@ -1,16 +1,3 @@
-/****************************************************************************************************************************************************************
-  Author:
-  Dhairya Dhondiyal
-
-  Description:
-  This program encodes a file using Huffman encoding procedure
-
-  Disclaimer:
-  Copyright (C) - All Rights Reserved
-  Unauthorized copying of this file, via any medium is strictly prohibited
-  Proprietary and confidential
-  Written by Dhairya Dhondiyal, March 2017
-****************************************************************************************************************************************************************/
 #include <iostream>
 #include <fstream>
 #include <vector>
