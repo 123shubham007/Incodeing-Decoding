@@ -1,2 +1,5 @@
-# minor_project
-Minor project, code on encrypt -> encode -> decode -> decrypt text file using AES and Huffman encryption.
+# Minor project
+Code on encrypt -> encode -> decode -> decrypt text file using AES and Huffman encryption.
+
+Reference For Encode and Decode Code
+Author : Dhairya Dhondiyal
